@@ -1,4 +1,14 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+﻿import React from "react";
+import "./WhatIsCaira.scss";
+
+function WhatIsCaira() {
+    return (
+        <div className="flex" id="sec2">
+            <div>
+                <p><img className="icon" src="assets/Recursos/flecha.png"></img></p>
+            </div>
+        </div>
+    )
+}
+
+export default WhatIsCaira;
