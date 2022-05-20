@@ -12,6 +12,8 @@ const centerEN = () => {
                 <Contact/>
             </main>
             <Footer/>
+            <script src="../src/scripts/partners.js"></script>
+            <script src="../src/scripts/centerEN.js"></script>
         </div>
     );
 }

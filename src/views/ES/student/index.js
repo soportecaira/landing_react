@@ -15,7 +15,11 @@ const StudentES = () => {
                 <Contact/>
             </main>
             <Footer/>
-        </div>
+            <script src="../src/cognito/register.js"></script>
+            <script src="../src/cognito/login.js"></script>
+            <script src="../src/scripts/partners.js"></script>
+            <script src="../src/scripts/studentES.js"></script>
+        </div>  
     );
 }
 

@@ -343,39 +343,6 @@ section{
     }  
 }
 
-footer{
-    margin: 0;
-    bottom: 0;
-    color: $cairaWhite;
-    background-image: $gradient;
-    height: 220px;
-    display: flex;
-    .ft-logo{
-        margin-top: 0;
-        padding: 0;
-        img{
-            width: 300px;
-        }
-    }
-    .ft-text{
-        margin-top: 80px;
-        display: flex;
-        flex-direction: row;
-        div{
-            margin-left: 50px;
-        }
-        .legal{
-            p{
-                margin-right: 20px;
-                a{
-                    text-decoration: none;
-                    color: $cairaWhite;
-                }
-            }
-        }
-    }
-}
-
 #map-ed{
     margin: auto;
     padding: auto;
@@ -558,6 +525,78 @@ footer{
     box-shadow: $shadow;
 }
 
+//footer
 
-
-
+.footer {
+    top: 450px;
+    width: 100vw;
+    background: $gradient;
+    margin-left: -10px;
+  
+    &__container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+  
+    &__logo {
+      width: 150px;
+    }
+  
+    &__containerItems {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    &__items {
+      color: $cairaWhite;
+      font-family: $font1;
+      font-size: 15px;
+      margin-left: 40px;
+    }
+  
+    &__socialIcons {
+      margin-right: 30px;
+      width: 30px;
+    }
+  
+    &__ContainerItemsMobile {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 849px) {
+    .footer {
+      padding-bottom: 10px;
+  
+      &__logo {
+        width: 120px;
+      }
+  
+      &__items {
+        font-size: 7px;
+        margin-left: 0px;
+      }
+  
+      &__ContainerItems {
+        display: none;
+      }
+  
+      &__ContainerItemsMobile {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+      }
+  
+      &__socialContainer {
+        display: flex;
+        flex-direction: row;
+      }
+  
+      &__socialIcons {
+        width: 20px;
+        margin-right: 15px;
+      }
+    }
+  }

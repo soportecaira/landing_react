@@ -12,6 +12,8 @@ const centerES = () => {
                 <Contact/>
             </main>
             <Footer/>
+            <script src="../src/scripts/partners.js"></script>
+            <script src="../src/scripts/centerES.js"></script>
         </div>
     );
 }
