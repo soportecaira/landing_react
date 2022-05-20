@@ -1,4 +1,21 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+﻿const HeaderCenter = () => {
+    return (
+      <section className="flex" id="center-1">   
+            <article>
+                <h1>Acercamos estudiantes a tu institución</h1>
+                <p>Ponle fácil al estudiante conectar contigo. Ayúdale a crecer personal y profesionalmente.</p>
+            </article>
+
+            <div id="book" className="flex-c">
+                <h3>¿Te gustaría hablar con nosotros?</h3>
+
+                <div className="flex" id="calendy" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pruizdiez'});return false;">
+                    <img className="icon-s" src="assets/Recursos/calendar.svg"/> 
+                    <p><b>Reserva una llamada</b></p>
+                </div>
+            </div>
+        </section>
+    );
+  };
+  
+export default HeaderCenter;
