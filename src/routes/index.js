@@ -1,16 +1,16 @@
 import React from "react";
 import {Switch,Route} from "react-router-dom";
 
-import CenterEN from "views/EN/center";
-import CenterES from "views/ES/center";
-import StudentEN from "views/EN/student";
-import StudentES from "views/ES/student";
-import RegisterEN from "views/EN/register";
-import RegisterES from "views/ES/register";
-import RegisterGoogle from "views/registerGoogle";
-import Aviso from "views/legal/aviso";
-import Cookies from "views/legal/cookies"
-import Privacidad from "views/legal/privacidad";
+import CenterEN from "./views/EN/center";
+import CenterES from "./views/ES/center";
+import StudentEN from "./views/EN/student";
+import StudentES from "./views/ES/student";
+import RegisterEN from "./views/EN/register";
+import RegisterES from "./views/ES/register";
+import RegisterGoogle from "./views/registerGoogle";
+import Aviso from "./views/legal/aviso";
+import Cookies from "./views/legal/cookies"
+import Privacidad from "./views/legal/privacidad";
 
 const Index = () => {
   
