@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import Routes from 'routes'; 
+import Routes from './routes'; 
 
 
 // ==============================|| APP ||============================== //

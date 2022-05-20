@@ -1,4 +1,5 @@
-﻿const Footer = () => {
+
+const Footer = () => {
     return (
       <div className="footer">
         <span className="footer__container">
